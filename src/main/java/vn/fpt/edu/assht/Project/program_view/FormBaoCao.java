@@ -121,14 +121,15 @@ public class FormBaoCao extends JFrame{
         header.add("Người bán");
         header.add("Trị giá");
         
-        Connection cn=
+        Connect kn=new Connect();
+		Connection cn=kn.getConnect();
         table.setPreferredScrollableViewportSize(new Dimension(1000, 230));
         Statement st = null;
         ResultSet rs = null;
-        String sql = "Select * FROM NHANVIEN";
+        String sql = "Select * FROM users";
         try {
-            st = cn.createStatement();
-            rs = st.executeQuery(sql);
+            st = (Statement) cn.createStatement();
+            rs = ((java.sql.Statement) st).executeQuery(sql);
             int i = 1;
             while (rs.next()) {
                 Vector data1 = new Vector();
