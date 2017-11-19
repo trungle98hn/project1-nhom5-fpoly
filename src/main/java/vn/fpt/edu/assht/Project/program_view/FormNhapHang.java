@@ -1,6 +1,16 @@
 package vn.fpt.edu.assht.Project.program_view;
 
 import java.awt.BorderLayout;
+import java.awt.EventQueue;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+
+import javax.swing.JButton;
+import javax.swing.JFrame;
+import javax.swing.JPanel;
+import javax.swing.JTextArea;
+import javax.swing.JTextField;
 
 public final class FormNhapHang extends JFrame {
 

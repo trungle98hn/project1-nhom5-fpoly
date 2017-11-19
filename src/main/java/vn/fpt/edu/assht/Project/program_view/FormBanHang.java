@@ -31,6 +31,7 @@ public class FormBanHang {
 			}
 		});
 	}
+	//
 
 	/**
 	 * Create the application.
