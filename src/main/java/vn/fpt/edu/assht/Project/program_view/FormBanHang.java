@@ -38,7 +38,7 @@ public class FormBanHang {
 	public FormBanHang() {
 		initialize();
 		
-	    
+	    //ẻwerwerwer
 	}
 
 	private void add(JPanel pnlTong) {
